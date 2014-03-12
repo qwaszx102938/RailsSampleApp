@@ -23,19 +23,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="static_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="18" column="44" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="static_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="4" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.63909775" vertical-offset="345" max-vertical-offset="855">
+            <state line="6" column="19" selection-start="165" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="static_pages_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/static_pages_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="static_pages_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -77,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="314" selection-end="315" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="300">
+            <state line="3" column="9" selection-start="39" selection-end="39" vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -97,7 +124,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
       </list>
     </option>
   </component>
@@ -243,6 +272,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -250,6 +315,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="LayoutCode.rearrangeEntriesRuby" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: sample_app">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -300,6 +366,29 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <list size="4">
@@ -404,16 +493,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="314" selection-end="315" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="300">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/static_pages_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.63909775" vertical-offset="345" max-vertical-offset="855">
+        <state line="18" column="44" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="165" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="39" selection-end="39" vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
