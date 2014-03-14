@@ -12,7 +12,7 @@ describe "Static pages" do
       visit root_path
     end
     it { should have_content('Sample App') }
-    it { should have_title("Ruby on Rails Tutorial Sample App") }
+    it { should have_title(full_title("")) }
     it { should_not have_title('| Home') }
   end
 
@@ -24,7 +24,7 @@ describe "Static pages" do
       expect(page).to have_content("help me")
     end
     it "should have the title'Help'" do
-      expect(page).to have_title("#{base_title} | Help")
+      expect(page).to have_title(full_title("Help"))
     end
   end
 
@@ -37,7 +37,7 @@ describe "Static pages" do
       expect(page).to have_content("about us")
     end
     it "should have the title'About us'" do
-      expect(page).to have_title("#{base_title} | About us")
+      expect(page).to have_title(full_title("About us"))
     end
   end
   describe "Contract" do
@@ -48,7 +48,7 @@ describe "Static pages" do
     end
     it "should have the title 'Contact'" do
       visit contact_path
-      expect(page).to have_title("#{base_title} | Contact")
+      expect(page).to have_title(full_title("Contact"))
     end
 
   end
