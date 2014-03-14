@@ -3,41 +3,56 @@ require 'spec_helper'
 
 describe "Static pages" do
 
-let(:base_title){"Ruby on Rails Tutorial Sample App"}
+  #let(:base_title) { "Ruby on Rails Tutorial Sample App" }
+
+  subject { page }
   describe "Home page" do
-    it "should have the content 'Sample App'" do
-      visit '/static_pages/home'
-      expect(page).to have_content('Sample App')
+
+    before do
+      visit root_path
     end
-    it "should have the title'Home'" do
-      visit '/static_pages/home'
-      expect(page).to have_title('#{base_title} | Home')
-    end
+    it { should have_content('Sample App') }
+    it { should have_title("Ruby on Rails Tutorial Sample App") }
+    it { should_not have_title('| Home') }
   end
 
   describe "Help page" do
+    before {
+      visit help_path
+    }
     it "must include the content 'help'" do
-      visit '/static_pages/help'
       expect(page).to have_content("help me")
     end
     it "should have the title'Help'" do
-      visit '/static_pages/help'
-      expect(page).to have_title('#{base_title} | Help')
+      expect(page).to have_title("#{base_title} | Help")
     end
   end
-end
 
-describe "About us" do
-  it "should have the content 'about us'" do
-    visit '/static_pages/about'
-    expect(page).to have_content("about us")
+
+  describe "About us" do
+    before {
+      visit about_path
+    }
+    it "should have the content 'about us'" do
+      expect(page).to have_content("about us")
+    end
+    it "should have the title'About us'" do
+      expect(page).to have_title("#{base_title} | About us")
+    end
   end
-  it "should have the title'About us'" do
-    visit '/static_pages/about'
-    expect(page).to have_title('#{base_title} | About us')
+  describe "Contract" do
+
+    it "should have the content 'contact'" do
+      visit contact_path
+      expect(page).to have_content("Contact")
+    end
+    it "should have the title 'Contact'" do
+      visit contact_path
+      expect(page).to have_title("#{base_title} | Contact")
+    end
+
   end
 end
-
 #
 #describe "StaticPages" do
 #  describe "GET /static_pages" do
