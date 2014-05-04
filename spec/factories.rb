@@ -16,7 +16,7 @@ FactoryGirl.define do
    end
   end
 
-  factory :microposts do
+  factory :micropost do
     content "Lorem ipsum"
     user
   end
